@@ -9,7 +9,7 @@ import Entities.Customer;
 public class Main {
 
 	public static void main(String[] args) {
-		Customer customer1 = new Customer(1,"Ýsmet","Sandýkçý",LocalDate.of(1994, 12, 8),"52609543396");
+		Customer customer1 = new Customer(1,"Ýsmet","Sandýkçý",LocalDate.of(2021, 5, 4),"tc");
 		Customer customer2 = new Customer(2,"Test","Müþteri",LocalDate.of(1993,2,11),"12345678901");
 		
 		BaseCustomerManager neroCustomerManager = new NeroCustomerManager();
